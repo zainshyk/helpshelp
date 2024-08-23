@@ -1,0 +1,29 @@
+.form-floating input{
+ background-color: transparent;
+ border: 2px solid rgb(209, 209, 209);
+ position: relative;
+}
+
+.form-control:focus {
+  border-color: #6222CC;
+  box-shadow: none;
+} 
+
+
+.errorfield {
+  position: absolute;
+  color: white;
+  top: 55px;
+  opacity: 1;
+  margin-left: 5px;
+}
+
+.errorfield span{
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  width: 19px;
+  height: 19px;
+  text-align: center;
+  padding-top: 1px;
+  color: red;
+}
